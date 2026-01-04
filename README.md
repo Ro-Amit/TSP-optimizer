@@ -1,20 +1,19 @@
-✈️ TSP Route Optimizer
+✈️ **TSP Route Optimizer**
+-
+An algorithmic flight route optimization system for solving the **Travelling Salesman Problem (TSP)** over global capital cities.
 
-A smart, algorithmic flight route planner that solves the Travelling Salesman Problem (TSP) for global capital cities.
 
-⸻
+📖 **Overview**
+-
+The TSP Route Optimizer is a software system designed to compute efficient flight paths between multiple international capital cities.
 
-📖 Overview
+The project addresses the **NP-hard Travelling Salesman Problem** by implementing and evaluating multiple algorithmic approaches, enabling systematic comparison between solution quality and computational efficiency.
 
-The TSP Route Planner is a comprehensive software system designed to compute the most efficient flight path between multiple international capital cities.
-At its core, the system tackles the NP-hard Travelling Salesman Problem by implementing and comparing multiple algorithmic strategies — from exact solutions to heuristic and optimization-based approximations — enabling both correctness analysis and performance benchmarking.
 
-⸻
+🧠 **Algorithms Implemented**
+-
+The system includes several approaches to solving TSP, allowing controlled trade-offs between accuracy and performance depending on input size:
 
-🧠 Algorithms Implemented
-
-The project includes several approaches to solving TSP, allowing to trade accuracy for performance depending on input size:
-	•	Clustering-Based Approach – Reduces problem size by grouping nearby cities
-	•	2-Opt Optimization – Local search improvement applied to existing routes
-  •	Greedy Algorithm – Fast heuristic for larger inputs
-
+* **Greedy Algorithm** – Efficient heuristic for large-scale instances  
+* **Clustering-Based Approach** – Reduces problem complexity by grouping geographically proximate cities  
+* **2-Opt Optimization** – Local search technique for improving existing routes
